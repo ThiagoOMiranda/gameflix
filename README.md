@@ -1,6 +1,8 @@
 ﻿# Gameflix - Página inspirada no Netflix
 **Autor: Thiago de Oliveira Miranda**
 
+https://thiagoomiranda.github.io/gameflix/
+___
 Projeto proposto no Bootcamp: HTML Web Developer da plataforma ***DIO - Digital Innovation One.***
 ___
 O exercício proposto neste projeto, constituiu em desenvolver uma interface básica, similar à da plataforma ***Netflix***, tendo o foco direcionado durante o processo, nos conceitos de "content wrapper" ou "containerização", metodologia que explora as características adaptativas do *Flexbox* entre os elementos "pai" e os elementos "filhos".
