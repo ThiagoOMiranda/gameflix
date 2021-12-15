@@ -200,7 +200,9 @@ function backgroundSize() {
     // console.log(mainCover.clientHeight);
     // console.log((h / 10) + "px");
     // flyBgd.style.top = (h / 20) + "px";
-    bgd.style.top = (mainCover.clientHeight - (mainCover.clientHeight / 3.5)) + "px";
+    setTimeout(function() {
+        bgd.style.top = (mainCover.clientHeight - (mainCover.clientHeight / 3.5)) + "px";
+    }, 500);
 };
 
 window.addEventListener("resize", backgroundSize);
