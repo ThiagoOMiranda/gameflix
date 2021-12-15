@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1281px) {
+    .title-wrapper {
+        width: 75%;
+    }
+    .info-wrapper {
+        width: 75%;
+    }
+    .user-wrapper {
+        right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .title-wrapper {
+        width: 55%;
+    }
+    .info-wrapper {
+        width: 55%;
+    }
+    .button-wrapper button {
+        padding: 1% 2%;
+    }
+    .fly-board {
+        width: 75%;
+    }
+    .fly-background {
+        background: linear-gradient(to top, var(--roxo-base) 35%, var(--transparente) 75%);
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .navbar,
+    .navbar-mod {
+        padding: 0 6%;
+    }
+    .nav-tab {
+        margin: 0;
+    }
+    .logo-info {
+        height: 55%;
+    }
+    .title-wrapper {
+        width: 55%;
+    }
+    .info-wrapper {
+        width: 100%;
+    }
+    .button-wrapper button {
+        padding: 1.25% 2%;
+    }
+    .main-nav {
+        /* display: none; */
+        float: left;
+        overflow: hidden;
+    }
+    #nav-drop {
+        display: block;
+    }
+    .main-nav:hover .navmenu {
+        display: inline-block !important;
+    }
+    .navmenu {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        /* flex-direction: column; */
+        align-items: center;
+        min-width: 270px;
+        border-top: 3px solid var(--branco);
+        border-right: 1.5px solid var(--cinza);
+        border-left: 1.5 solid var(--cinza);
+        border-bottom: 1.5px solid var(--cinza);
+        z-index: 1;
+        animation: fadeIn 1s;
+    }
+    .nav-tab {
+        align-items: center;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+        padding: 16px 15px;
+        background-color: rgba(var(--rgb-preto), 0.8);
+        margin-left: 0;
+        border-bottom: 1px solid rgb(73, 73, 73);
+    }
+    .fly-board {
+        width: 92%;
+    }
+    .fly-bgd .btn-game {
+        padding: 0.75% 2%;
+    }
+    .fly-background {
+        background: linear-gradient(to top, var(--roxo-base) 35%, var(--transparente) 60%);
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .gameflix-logo {
+        height: 6vh;
+    }
+    .navbar {
+        padding: 0 6%;
+    }
+    .logo-info {
+        height: 80%;
+    }
+    .button-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-wrapper button {
+        margin: 0;
+        padding: 2% 2%;
+        width: 100%;
+        margin-bottom: 0.75rem;
+    }
+    .btn-game {
+        background-color: var(--roxo-claro);
+        color: var(--roxo-base);
+        width: 100% !important;
+    }
+    .btn-mute {
+        top: 2vh;
+    }
+    #mute2 {
+        top: 38vh;
+    }
+    .description {
+        font-size: 20px;
+    }
+    .text-wrapper p {
+        font-size: 12px !important;
+    }
+    .fly-background {
+        background: linear-gradient(to top, var(--roxo-base) 70%, var(--transparente) 100%);
+    }
+}

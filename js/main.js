@@ -181,7 +181,7 @@ let w, h;
 function displayWindowSize() {
     w = document.documentElement.clientWidth;
     h = document.documentElement.clientHeight;
-    console.log("Width: " + w + ", " + "Height: " + h)
+    // console.log("Width: " + w + ", " + "Height: " + h)
 };
 
 window.addEventListener("resize", displayWindowSize);
@@ -197,7 +197,7 @@ let bgd = document.getElementById("back"),
     mainCover = document.getElementById("main-cover");
 
 function backgroundSize() {
-    console.log(mainCover.clientHeight);
+    // console.log(mainCover.clientHeight);
     // console.log((h / 10) + "px");
     // flyBgd.style.top = (h / 20) + "px";
     bgd.style.top = (mainCover.clientHeight - (mainCover.clientHeight / 3.5)) + "px";
