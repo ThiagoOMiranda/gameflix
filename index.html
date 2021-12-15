@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon2.svg">
+
+    <!--font aweseome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.css">
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Gameflix</title>
+</head>
+
+<body>
+    <header id="header" class="navbar">
+        <div class="main-nav">
+            <a href="#"><img class="gameflix-logo" src="./img/logo.svg" alt="gameflix-logo"></a>
+            <button id="nav-drop">Navegar
+                <i class="fas fa-caret-down fa-lg"></i>
+            </button>
+            <div class="navmenu">
+                <a href="#" class="nav-tab">Início</a>
+                <a href="#" class="nav-tab">Games</a>
+                <a href="#" class="nav-tab">Arcade</a>
+                <a href="#" class="nav-tab">Retro</a>
+                <a href="#" class="nav-tab">Minha lista</a>
+            </div>
+        </div>
+        <div class="sec-nav">
+            <div class="nav-element">
+                <div class="search-box" id="search">
+                    <span><i class="fas fa-search fa-lg" id="lupa"></i></span>
+                    <input type="search" class="search-bar" placeholder="Títulos, personagem ou gênero" id="input-search">
+                </div>
+            </div>
+            <div class="nav-element">
+                <span><i class="fas fa-bell fa-lg"></i></span>
+            </div>
+            <div class="user-menu">
+                <a><img src="./img/user01.jpg" alt="perfil de usuário" class="account"></a>
+                <span id="caret">
+                        <i class="fas fa-caret-down" id="tip"></i>
+                    </span>
+                <div class="user-wrapper">
+                    <i class="fas fa-caret-up"></i>
+                    <div class="account-menu">
+                        <div class="profiles">
+                            <a href="#"><img src="./img/user02.jpg" alt="" class="account">João</a>
+                            <a href="#"><img src="./img/user03.jpg" alt="" class="account">Regina</a>
+                            <a href="#"><img src="./img/user04.jpg" alt="" class="account">Maurício</a>
+                            <a href="#">Gerenciador de perfis</a>
+                        </div>
+                        <div class="profile-menu">
+                            <a href="#">Conta</a>
+                            <a href="#">Centro de ajuda</a>
+                            <a href="#">Sair do Gameflix</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+
+        <div class="cover-wrapper">
+            <img class="img-cover" oncontextmenu="return false;" src="./img/01.jpg" id="main-cover">
+            <video class="hidden vid-cover" oncontextmenu="return false;" src="./vid/01.webm" id="gvideo"></video>
+            <div class="background" id="back"></div>
+        </div>
+        <div class="fly-wrapper">
+            <div class="fly-board">
+                <img class="hidden img-cover" oncontextmenu="return false;" src="./img/01.jpg" id="fly-cover">
+                <video class="vid-cover" oncontextmenu="return false;" src="./vid/01.webm" id="gvideo"></video>
+                <div class="fly-background" id="fly-back"></div>
+                <div class="fly-bgd">
+                    <button role="button" id="close">
+                        <i class="fas fa-times fa-lg"></i>
+                    </button>
+                    <button role="button" id="mute2" class="btn-mute">
+                        <i id="vol-mute2" class="fas fa-volume-up fa-lg"></i> 
+                    </button>
+                    <img class="main-game-logo" src="./img/01.svg " alt="main-game-logo">
+                    <button role="button" class="btn-game">
+                        <i class="fas fa-gamepad fa-2x"></i>
+                        <span>Jogar</span>
+                    </button>
+                    <div class="text-wrapper">
+                        <p class="description">Viva a experiência de Aloy em sua busca lendária para desvendar os mistérios de uma Terra do futuro controlada por máquinas.</p>
+                        <p class="game-info">
+
+                            <span>Nº de Jogadores: </span>1 player<br>
+                            <br>
+                            <span>Data de lançamento: </span>28/fev/2017<br>
+                            <br>
+                            <span>Desenvolvedora: </span>Guerrilla Games<br>
+                            <br>
+                            <span>Distribuidora: </span>PlayStation PC LLC<br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="logo-info">
+            <div class="title-wrapper">
+                <img class="main-game-logo" src="./img/01.svg " alt="main-game-logo" id="main-game">
+            </div>
+            <div class="info-wrapper" id="info-text">
+                <p class="description">Viva a experiência de Aloy em sua busca lendária para desvendar os mistérios de uma Terra do futuro controlada por máquinas.</p>
+            </div>
+            <div class="button-wrapper">
+                <button role="button" class="btn-game">
+                    <i class="fas fa-gamepad fa-2x"></i>
+                    <span>Jogar</span>
+                </button>
+                <button role="button" class="btn-watch" id="play">
+                    <i id="play-sign" class="fas fa-play fa-2x"></i>
+                    <span id="play-Trailer">Trailer</span>
+                </button>
+                <button role="button" class="btn-info" id="info">
+                    <i class="fas fa-info-circle fa-2x"></i>
+                    <span>Mais informações</span>
+                </button>
+                <button role="button" class="btn-mute" id="mute">
+                    <i id="vol-mute" class="fas fa-volume-up fa-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-games">
+            <div class="carousel-wrapper">
+                <a href="#">Minha lista</a>
+                <div class="owl-carousel loop owl-theme">
+                    <div class="item box-game"><img src="img/mini01.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini02.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini03.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini04.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini05.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini06.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini07.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini08.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini09.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini21.jpg" alt="capa"></div>
+                </div>
+            </div>
+
+            <div class="carousel-wrapper">
+                <a href="#">Continue jogando</a>
+                <div class="owl-carousel loop owl-theme">
+                    <div class="item box-game"><img src="img/mini11.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini12.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini13.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini14.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini15.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini16.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini17.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini18.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini19.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini20.jpg" alt="capa"></div>
+                </div>
+            </div>
+
+            <div class="carousel-wrapper">
+                <a href="#">Lançamentos</a>
+                <div class="owl-carousel loop owl-theme">
+                    <div class="item box-game"><img src="img/mini10.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini15.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini06.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini16.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini07.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini17.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini08.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini18.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini09.jpg" alt="capa"></div>
+                    <div class="item box-game"><img src="img/mini19.jpg" alt="capa"></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/main.js "></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+
+</html>
